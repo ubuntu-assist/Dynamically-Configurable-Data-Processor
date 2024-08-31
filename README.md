@@ -1,5 +1,5 @@
 
-# 🚀 Engineering a Dynamically Reconfigurable Data Processor 🚀
+# 🚀 Dynamically Reconfigurable Data Processor 🚀
 
 Welcome to the repository for **"Engineering a Dynamically Reconfigurable Data Processor"**. This project dives deep into the architecture and design of a flexible, scalable data processing pipeline capable of switching between multiple operational modes and databases on the fly.
 
@@ -28,6 +28,8 @@ The following structure is outlined in the UML class diagram:
 - **Mode Enum**: Identifies the operational mode, controlling how data is processed.
 - **Database Enum**: Identifies the active database, controlling where data is stored or validated.
 - **DataPoint Class**: Represents the data, both raw and processed, that flows through the system.
+
+![UML Class Diagram](https://media.licdn.com/dms/image/v2/D4E22AQH3AF3stEKayA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1724008295705?e=1727913600&v=beta&t=IMyw9vOmgifY_JWBOG2jlShYTHdZ8v-tYq04yhQJFDk)
 
 ### Extending the System
 
